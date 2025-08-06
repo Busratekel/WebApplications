@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proje Portföyü - DoquHome</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-code"></i>
+                    <span>DoquHome</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Ana Sayfa</a></li>
+                    <li><a href="#projects" class="nav-link">Projeler</a></li>
+                    <li><a href="#about" class="nav-link">Hakkında</a></li>
+                    <li><a href="#contact" class="nav-link">İletişim</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Proje Portföyü</h1>
+                    <p class="hero-subtitle">Geliştirdiğimiz web uygulamaları ve projelerin detaylı incelemesi</p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number" id="projectCount">0</span>
+                            <span class="stat-label">Proje</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" id="technologyCount">0</span>
+                            <span class="stat-label">Teknoloji</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" id="experienceYears">0</span>
+                            <span class="stat-label">Yıl Deneyim</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="floating-card">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Projelerimiz</h2>
+                    <p>Geliştirdiğimiz web uygulamaları ve çözümler</p>
+                </div>
+                
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Projeler JavaScript ile yüklenecek -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>Hakkımızda</h2>
+                        <p>DoquHome olarak, modern web teknolojileri kullanarak kullanıcı dostu ve performanslı web uygulamaları geliştiriyoruz. Her projemizde en güncel teknolojileri kullanarak, müşterilerimizin ve şirketimizin ihtiyaçlarına özel çözümler sunuyoruz.</p>
+                        <div class="tech-stack">
+                            <h3>Teknoloji Yığınımız</h3>
+                            <div class="tech-icons">
+                                <div class="tech-icon" title="HTML5">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="tech-icon" title="CSS3">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <div class="tech-icon" title="JavaScript">
+                                    <i class="fab fa-js-square"></i>
+                                </div>
+                                <div class="tech-icon" title="React">
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <div class="tech-icon" title="Node.js">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="tech-icon" title="Python">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2>İletişim</h2>
+                    <p>Projelerimiz hakkında bilgi almak için bizimle iletişime geçin</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>E-posta</h4>
+                                <p>bim@doqu.com.tr</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Adres</h4>
+                                <p>www.doquhome.com.tr</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-code"></i>
+                    <span>DoquHome</span>
+                </div>
+                <p>&copy; 2025 DoquHome. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalContent">
+                <!-- Modal içeriği JavaScript ile yüklenecek -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
