@@ -2,167 +2,6 @@
 const projects = [
     {
         id: 1,
-        title: "Yastık Seçim Robotu",
-        description: "Uyku alışkanlıklarınızı analiz ederek size en uygun yastığı öneren akıllı sistem.",
-        icon: "fas fa-bed",
-        technologies: ["React", "Python", "Flask", "TensorFlow", "AI/ML"],
-        liveUrl: "https://mastermatch.doquhome.com.tr",
-        githubUrl: "",
-        purpose: "Kullanıcıların uyku pozisyonu, boyun ağrısı ve tercihlerine göre en uygun yastığı önerme",
-        features: [
-            "Kişiselleştirilmiş yastık önerisi",
-            "Uyku pozisyonu analizi",
-            "Boyun ağrısı değerlendirmesi",
-            "Materyal tercihi belirleme",
-            "Detaylı sonuç raporu",
-            "Ürün karşılaştırma"
-        ]
-    },
-    {
-        id: 2,
-        title: "SharePoint İK Portalı",
-        description: "İnsan kaynakları departmanı için kapsamlı iç portal sistemi, yemek menüsü, haberler ve doğum günleri takibi.",
-        icon: "fas fa-users-cog",
-        technologies: ["SharePoint", "Power Automate", "Power Apps", "Power BI", "Microsoft Forms"],
-        liveUrl: "https://doqu365.sharepoint.com/sites/doquinsankaynaklari",
-        purpose: "Çalışanlar için merkezi bilgi platformu, yemek menüsü, fhrist, haberler, doğum günleri ve İK süreçleri yönetimi",
-        features: [
-            "Günlük yemek menüsü takibi",
-            "Şirket haberleri ve duyurular",
-            "Doğum günü ve yıldönümü bildirimleri",
-            "İK formları ve süreçler",
-            "Çalışan dizini ve iletişim",
-            "Etkinlik takvimi ve organizasyon"
-        ]
-    },
-    {
-        id: 3,
-        title: "Otomatik Mail Task Manager",
-        description: "Çalışanların kıdem yıl dönümleri ve doğum günlerinde otomatik mail gönderen akıllı sistem.",
-        icon: "fas fa-envelope-open-text",
-        technologies: ["Power Automate", "SharePoint Lists", "Microsoft Forms", "Power Apps"],
-        liveUrl: "",
-        githubUrl: "",
-        purpose: "Çalışanların özel günlerini takip ederek otomatik tebrik maili gönderme ve yönetici bildirimleri",
-        features: [
-            "Doğum günü otomatik mail gönderimi",
-            "Kıdem yıl dönümü takibi",
-            "Özelleştirilebilir mail şablonları",
-            "Yönetici bildirim sistemi",
-            "Mail gönderim raporları",
-            "Çalışan veritabanı entegrasyonu"
-        ]
-    },
-    {
-        id: 4,
-        title: "Toplantı Odası Yönetim Sistemi",
-        description: "Toplantı odalarının müsaitlik durumunu takip eden, haftalık planlamaları gösteren akıllı sistem.",
-        icon: "fas fa-calendar-check",
-        technologies: ["React", ".NET Core", "Microsoft Graph API"],
-        liveUrl: "https://toplantiodasi.doqu.com.tr/",
-        githubUrl: "",
-        purpose: "Toplantı odalarının gerçek zamanlı müsaitlik takibi, haftalık planlamalar ve otomatik durum güncellemesi",
-        features: [
-            "Gerçek zamanlı müsaitlik durumu",
-            "Haftalık toplantı planlamaları",
-            "Otomatik durum güncellemesi (saat geçince müsait)",
-            "Toplantı konusu ve katılımcı bilgileri",
-            "Oda rezervasyon sistemi",
-            "Mobil uygulama entegrasyonu"
-        ]
-    },
-    {
-        id: 5,
-        title: "Bilgi İşlem Destek Yönetim Merkezi",
-        description: "Bilgi İşlem departmanı için destek talepleri yönetimi ve teknik sorun çözüm portalı.",
-        icon: "fas fa-headset",
-        technologies: ["SharePoint", "Power Apps", "Microsoft Lists", "Power Automate"],
-        liveUrl: "https://support.erciyes.com",
-        githubUrl: "",
-        purpose: "Bilgi İşlem departmanı destek taleplerinin yönetimi, sorun takibi ve çözüm süreçleri",
-        features: [
-            "Destek talebi oluşturma ve takibi",
-            "Teknik sorun çözüm süreçleri",
-            "Kullanıcı bildirim sistemi",
-            "Destek geçmişi ve raporlama",
-            "Öncelik belirleme sistemi",
-            "Mobil destek uygulaması"
-        ]
-    },
-    {
-        id: 6,
-        title: "Elektronik Belge Akış Yönetimi",
-        description: "Kurumsal belge akışlarının dijital ortamda yönetimi ve takip sistemi.",
-        icon: "fas fa-file-alt",
-        technologies: ["SharePoint", "Power Automate", "Microsoft 365", "Power Apps"],
-        liveUrl: "https://eba.erclyes.com",
-        githubUrl: "",
-        purpose: "Belge akışlarının dijitalleştirilmesi, onay süreçleri ve takip sistemi",
-        features: [
-            "Dijital belge yönetimi",
-            "Onay süreçleri takibi",
-            "Otomatik bildirim sistemi",
-            "Belge versiyon kontrolü",
-            "Arama ve filtreleme",
-            "Mobil erişim"
-        ]
-    },
-    {
-        id: 7,
-        title: "Elektronik Satış Asistanı",
-        description: "Satış süreçlerini dijitalleştiren ve otomatikleştiren web uygulaması.",
-        icon: "fas fa-shopping-cart",
-        technologies: ["React", "Node.js", "MongoDB", "REST API"],
-        liveUrl: "https://esa.doqu.com.tr/login",
-        githubUrl: "",
-        purpose: "Satış süreçlerinin dijitalleştirilmesi ve otomatikleştirilmesi",
-        features: [
-            "Satış süreç yönetimi",
-            "Müşteri takibi",
-            "Otomatik fiyatlandırma",
-            "Sipariş yönetimi",
-            "Raporlama sistemi",
-            "Mobil uygulama"
-        ]
-    },
-    {
-        id: 8,
-        title: "Verimlilik Sistemi Web Platformu",
-        description: "Kurumsal verimliliği artırmak için geliştirilmiş kapsamlı web platformu.",
-        icon: "fas fa-chart-bar",
-        technologies: ["Vue.js", "Express.js", "PostgreSQL", "Redis"],
-        liveUrl: "https://fimes.doqu.com.tr",
-        githubUrl: "",
-        purpose: "Kurumsal verimliliği ölçme, analiz etme ve artırma",
-        features: [
-            "Verimlilik analizi",
-            "Performans takibi",
-            "KPI göstergeleri",
-            "Raporlama sistemi",
-            "Dashboard görünümleri",
-            "Gerçek zamanlı veriler"
-        ]
-    },
-    {
-        id: 9,
-        title: "GES Panel Yönetimi",
-        description: "Güneş Enerjisi Santrali panellerinin izleme ve yönetim sistemi.",
-        icon: "fas fa-solar-panel",
-        technologies: ["React", "Node.js", "IoT", "Real-time Data"],
-        liveUrl: "http://ges.doqu.com.tr",
-        githubUrl: "",
-        purpose: "GES panellerinin uzaktan izlenmesi ve yönetimi",
-        features: [
-            "Panel performans takibi",
-            "Enerji üretim analizi",
-            "Arıza tespit sistemi",
-            "Gerçek zamanlı izleme",
-            "Raporlama ve analitik",
-            "Mobil uygulama"
-        ]
-    },
-    {
-        id: 10,
         title: "Internet Erişim Kimlik Doğrulama",
         description: "Kurumsal internet erişimi için güvenli kimlik doğrulama sistemi.",
         icon: "fas fa-shield-alt",
@@ -180,7 +19,96 @@ const projects = [
         ]
     },
     {
-        id: 12,
+        id: 2,
+        title: "Bilgi İşlem Destek Yönetim Merkezi",
+        description: "Bilgi İşlem departmanı için destek talepleri yönetimi ve teknik sorun çözüm portalı.",
+        icon: "fas fa-headset",
+        technologies: ["SharePoint", "Power Apps", "Microsoft Lists", "Power Automate"],
+        liveUrl: "https://support.erciyes.com",
+        githubUrl: "",
+        purpose: "Bilgi İşlem departmanı destek taleplerinin yönetimi, sorun takibi ve çözüm süreçleri",
+        features: [
+            "Destek talebi oluşturma ve takibi",
+            "Teknik sorun çözüm süreçleri",
+            "Kullanıcı bildirim sistemi",
+            "Destek geçmişi ve raporlama",
+            "Öncelik belirleme sistemi",
+            "Mobil destek uygulaması"
+        ]
+    },
+    {
+        id: 3,
+        title: "Elektronik Belge Akış Yönetimi",
+        description: "Kurumsal belge akışlarının dijital ortamda yönetimi ve takip sistemi.",
+        icon: "fas fa-file-alt",
+        technologies: ["SharePoint", "Power Automate", "Microsoft 365", "Power Apps"],
+        liveUrl: "https://eba.erclyes.com",
+        githubUrl: "",
+        purpose: "Belge akışlarının dijitalleştirilmesi, onay süreçleri ve takip sistemi",
+        features: [
+            "Dijital belge yönetimi",
+            "Onay süreçleri takibi",
+            "Otomatik bildirim sistemi",
+            "Belge versiyon kontrolü",
+            "Arama ve filtreleme",
+            "Mobil erişim"
+        ]
+    },
+    {
+        id: 4,
+        title: "SharePoint İK Portalı",
+        description: "İnsan kaynakları departmanı için kapsamlı iç portal sistemi, yemek menüsü, haberler ve doğum günleri takibi.",
+        icon: "fas fa-users-cog",
+        technologies: ["SharePoint", "Power Automate", "Power Apps", "Power BI", "Microsoft Forms"],
+        liveUrl: "https://doqu365.sharepoint.com/sites/doquinsankaynaklari",
+        purpose: "Çalışanlar için merkezi bilgi platformu, yemek menüsü, fhrist, haberler, doğum günleri ve İK süreçleri yönetimi",
+        features: [
+            "Günlük yemek menüsü takibi",
+            "Şirket haberleri ve duyurular",
+            "Doğum günü ve yıldönümü bildirimleri",
+            "İK formları ve süreçler",
+            "Çalışan dizini ve iletişim",
+            "Etkinlik takvimi ve organizasyon"
+        ]
+    },
+    {
+        id: 5,
+        title: "Verimlilik Sistemi Web Platformu",
+        description: "Kurumsal verimliliği artırmak için geliştirilmiş kapsamlı web platformu.",
+        icon: "fas fa-chart-bar",
+        technologies: ["Vue.js", "Express.js", "PostgreSQL", "Redis"],
+        liveUrl: "https://fimes.doqu.com.tr",
+        githubUrl: "",
+        purpose: "Kurumsal verimliliği ölçme, analiz etme ve artırma",
+        features: [
+            "Verimlilik analizi",
+            "Performans takibi",
+            "KPI göstergeleri",
+            "Raporlama sistemi",
+            "Dashboard görünümleri",
+            "Gerçek zamanlı veriler"
+        ]
+    },
+    {
+        id: 6,
+        title: "Toplantı Odası Yönetim Sistemi",
+        description: "Toplantı odalarının müsaitlik durumunu takip eden, haftalık planlamaları gösteren akıllı sistem.",
+        icon: "fas fa-calendar-check",
+        technologies: ["React", ".NET Core", "Microsoft Graph API"],
+        liveUrl: "https://toplantiodasi.doqu.com.tr/",
+        githubUrl: "",
+        purpose: "Toplantı odalarının gerçek zamanlı müsaitlik takibi, haftalık planlamalar ve otomatik durum güncellemesi",
+        features: [
+            "Gerçek zamanlı müsaitlik durumu",
+            "Haftalık toplantı planlamaları",
+            "Otomatik durum güncellemesi (saat geçince müsait)",
+            "Toplantı konusu ve katılımcı bilgileri",
+            "Oda rezervasyon sistemi",
+            "Mobil uygulama entegrasyonu"
+        ]
+    },
+    {
+        id: 7,
         title: "Doqu BGYS",
         description: "Bilgi Güvenliği Yönetim Sistemi - kurumsal güvenlik standartları.",
         icon: "fas fa-lock",
@@ -198,25 +126,7 @@ const projects = [
         ]
     },
     {
-        id: 13,
-        title: "Kalite Web Uygulaması",
-        description: "Kalite yönetimi süreçlerini dijitalleştiren web uygulaması.",
-        icon: "fas fa-award",
-        technologies: ["Vue.js", "Laravel", "MySQL", "Quality Standards"],
-        liveUrl: "https://qm.doqu.com.tr",
-        githubUrl: "",
-        purpose: "Kalite yönetimi süreçlerinin dijitalleştirilmesi",
-        features: [
-            "Kalite süreç yönetimi",
-            "Dokümantasyon sistemi",
-            "Denetim takibi",
-            "İyileştirme önerileri",
-            "Raporlama sistemi",
-            "Mobil uygulama"
-        ]
-    },
-    {
-        id: 14,
+        id: 8,
         title: "SAP Canlı RF Web Gul",
         description: "SAP sistemleri için canlı RF (Radio Frequency) web arayüzü.",
         icon: "fas fa-radio",
@@ -234,7 +144,43 @@ const projects = [
         ]
     },
     {
-        id: 16,
+        id: 9,
+        title: "Elektronik Satış Asistanı",
+        description: "Satış süreçlerini dijitalleştiren ve otomatikleştiren web uygulaması.",
+        icon: "fas fa-shopping-cart",
+        technologies: ["React", "Node.js", "MongoDB", "REST API"],
+        liveUrl: "https://esa.doqu.com.tr/login",
+        githubUrl: "",
+        purpose: "Satış süreçlerinin dijitalleştirilmesi ve otomatikleştirilmesi",
+        features: [
+            "Satış süreç yönetimi",
+            "Müşteri takibi",
+            "Otomatik fiyatlandırma",
+            "Sipariş yönetimi",
+            "Raporlama sistemi",
+            "Mobil uygulama"
+        ]
+    },
+    {
+        id: 10,
+        title: "Yastık Seçim Robotu",
+        description: "Uyku alışkanlıklarınızı analiz ederek size en uygun yastığı öneren akıllı sistem.",
+        icon: "fas fa-bed",
+        technologies: ["React", "Python", "Flask", "TensorFlow", "AI/ML"],
+        liveUrl: "https://mastermatch.doquhome.com.tr",
+        githubUrl: "",
+        purpose: "Kullanıcıların uyku pozisyonu, boyun ağrısı ve tercihlerine göre en uygun yastığı önerme",
+        features: [
+            "Kişiselleştirilmiş yastık önerisi",
+            "Uyku pozisyonu analizi",
+            "Boyun ağrısı değerlendirmesi",
+            "Materyal tercihi belirleme",
+            "Detaylı sonuç raporu",
+            "Ürün karşılaştırma"
+        ]
+    },
+    {
+        id: 11,
         title: "Doqu Home Güncel Katalog",
         description: "Doqu Home ürünlerinin güncel katalog ve tanıtım sitesi.",
         icon: "fas fa-book-open",
@@ -250,7 +196,62 @@ const projects = [
             "Responsive tasarım",
             "SEO optimizasyonu"
         ]
-    }
+    },
+    {
+        id: 12,
+        title: "Kalite Web Uygulaması",
+        description: "Kalite yönetimi süreçlerini dijitalleştiren web uygulaması.",
+        icon: "fas fa-award",
+        technologies: ["Vue.js", "Laravel", "MySQL", "Quality Standards"],
+        liveUrl: "https://qm.doqu.com.tr",
+        githubUrl: "",
+        purpose: "Kalite yönetimi süreçlerinin dijitalleştirilmesi",
+        features: [
+            "Kalite süreç yönetimi",
+            "Dokümantasyon sistemi",
+            "Denetim takibi",
+            "İyileştirme önerileri",
+            "Raporlama sistemi",
+            "Mobil uygulama"
+        ]
+    },
+    {
+        id: 13,
+        title: "GES Panel Yönetimi",
+        description: "Güneş Enerjisi Santrali panellerinin izleme ve yönetim sistemi.",
+        icon: "fas fa-solar-panel",
+        technologies: ["React", "Node.js", "IoT", "Real-time Data"],
+        liveUrl: "http://ges.doqu.com.tr",
+        githubUrl: "",
+        purpose: "GES panellerinin uzaktan izlenmesi ve yönetimi",
+        features: [
+            "Panel performans takibi",
+            "Enerji üretim analizi",
+            "Arıza tespit sistemi",
+            "Gerçek zamanlı izleme",
+            "Raporlama ve analitik",
+            "Mobil uygulama"
+        ]
+    },
+    {
+        id: 14,
+        title: "Otomatik Mail Gönderim Sistemi",
+        description: "Çalışanların kıdem yıl dönümleri ve doğum günlerinde otomatik mail gönderen akıllı sistem.",
+        icon: "fas fa-envelope-open-text",
+        technologies: ["Power Automate", "SharePoint Lists", "Microsoft Forms", "Power Apps"],
+        liveUrl: "",
+        githubUrl: "",
+        purpose: "Çalışanların özel günlerini takip ederek otomatik tebrik maili gönderme ve yönetici bildirimleri",
+        features: [
+            "Doğum günü otomatik mail gönderimi",
+            "Kıdem yıl dönümü takibi",
+            "Özelleştirilebilir mail şablonları",
+            "Yönetici bildirim sistemi",
+            "Mail gönderim raporları",
+            "Çalışan veritabanı entegrasyonu"
+        ]
+    },    
+    
 ];
 
 // DOM elementleri
