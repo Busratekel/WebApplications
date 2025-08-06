@@ -42,7 +42,7 @@ const projects = [
         description: "Kurumsal belge akışlarının dijital ortamda yönetimi ve takip sistemi.",
         icon: "fas fa-file-alt",
         technologies: ["SharePoint", "Power Automate", "Microsoft 365", "Power Apps"],
-        liveUrl: "https://eba.erciyes.com",
+        liveUrl: "http://eba.erciyes.com",
         githubUrl: "",
         purpose: "Belge akışlarının dijitalleştirilmesi, onay süreçleri ve takip sistemi",
         features: [
