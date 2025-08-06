@@ -42,7 +42,7 @@ const projects = [
         description: "Kurumsal belge akışlarının dijital ortamda yönetimi ve takip sistemi.",
         icon: "fas fa-file-alt",
         technologies: ["SharePoint", "Power Automate", "Microsoft 365", "Power Apps"],
-        liveUrl: "https://eba.erclyes.com",
+        liveUrl: "https://eba.erciyes.com",
         githubUrl: "",
         purpose: "Belge akışlarının dijitalleştirilmesi, onay süreçleri ve takip sistemi",
         features: [
@@ -185,7 +185,7 @@ const projects = [
         description: "Doqu Home ürünlerinin güncel katalog ve tanıtım sitesi.",
         icon: "fas fa-book-open",
         technologies: ["React", "Node.js", "MongoDB", "E-commerce"],
-        liveUrl: "https://katalog.doguhome.com.tr/",
+        liveUrl: "https://katalog.doquhome.com.tr/",
         githubUrl: "",
         purpose: "Ürün kataloğu ve tanıtım platformu",
         features: [
